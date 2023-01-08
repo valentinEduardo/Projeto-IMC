@@ -22,6 +22,8 @@ function botao() {
   
     if (imc < 16){
         paragrafo.textContent = 'IMC Inválido'
+         resultado.textContent = '';
+            paragrafo2.textContent = ''
     }else{
      var imcFormatado = imc.toFixed(2).replace('.', ',');
         if(imc>=16 && imc<=16.9){
